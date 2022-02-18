@@ -1,0 +1,52 @@
+/*imports*/
+@import url("style.css");
+
+.featured-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, #000 0%, #000 40%, transparent 100%);
+}
+
+.icon-plus::before {
+    background-image: url("../assets/plus.svg");
+}
+
+.icon-play::before {
+    background-image: url("../assets/play.svg");
+}
+
+.icon-info::before {
+    background-image: url("../assets/info.svg");
+}
+
+/*movies*/
+.movies {
+     padding: 0 1em;
+ }
+
+.movies-content {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.movies-title {
+    margin-bottom: .8rem;
+}
+
+.movies-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.movies-item img {
+    width: 192px;
+    height: 288px;
+}
+
+
+
+
+
